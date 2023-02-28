@@ -5,7 +5,7 @@
 # begin properties
 properties() { '
 kernel.string=QuicksilveR Kernel by ghostrider-reborn
-do.devicecheck=1
+do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
@@ -15,7 +15,7 @@ device.name2=
 device.name3=
 device.name4=
 device.name5=
-supported.versions=10.0,9.0
+supported.versions=10.0,9.0,8.0,8.1
 supported.patchlevels=
 '; } # end properties
 
