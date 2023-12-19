@@ -4,14 +4,14 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=AOSPA GKI
-do.devicecheck=1
+kernel.string=Permissiver V7 by ghostrider_reborn
+do.devicecheck=0
 do.modules=0
-do.systemless=1
+do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=marble
-device.name2=marblein
+device.name1=
+device.name2=
 device.name3=
 device.name4=
 device.name5=
@@ -39,6 +39,7 @@ patch_vbmeta_flag=auto;
 
 # boot install
 split_boot
+patch_cmdline androidboot.selinux androidboot.selinux=permissive
 flash_boot
 ## end boot install
 
