@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=AOSPA GKI
+kernel.string=SiverCore GKI
 do.devicecheck=1
 do.modules=0
 do.systemless=1
